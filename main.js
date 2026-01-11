@@ -8,7 +8,7 @@
 
 // ------- IF / ELSE -------
 
-// let temperature = prompt('Inserisci la temperatura: ');
+// let temperature = Number(prompt('Inserisci la temperatura: '));-50
 
 // if(temperature < -10){
 //     console.log('Copriti…ancora ti raffreddi');   
@@ -31,11 +31,11 @@
 
 // ------- SWITCH -------
 
-let temperature = prompt('Inserisci la temperatura: ');
+let temperature = Number(prompt('Inserisci la temperatura: '));
 
 switch(true) {
     case temperature < -10:
-        console.log('Copriti…ancora ti raffreddi');   
+        console.log('Copriti…ancora ti raffreddi'); 
         break;
     case temperature < 0:
         console.log(`Non è tanto il freddo quanto l'umidità`);   
