@@ -8,7 +8,7 @@
 
 // ------- IF / ELSE -------
 
-// let temperature = Number(prompt('Inserisci la temperatura: '));-50
+// let temperature = Number(prompt('Inserisci la temperatura: '));
 
 // if(temperature < -10){
 //     console.log('Copriti…ancora ti raffreddi');   
